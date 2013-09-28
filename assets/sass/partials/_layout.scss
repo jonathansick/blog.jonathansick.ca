@@ -1,0 +1,18 @@
+// Susy grid layout
+
+// Base grid settings (mobile-first)
+$total-columns  : 7;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+// Break
+$break-columns : 12;
+
+.page {
+    @include container($total-columns, $break);
+}
+
+@include at-breakpoint($break) {
+
+}

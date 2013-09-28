@@ -12,6 +12,12 @@ will automatically build and server to `localhost:4001`
 
 will build only.
 
+Run
+
+    compass watch assets/
+
+to generate CSS.
+
 ***
 
 Copyright 2013 Jonathan Sick. License CC-BY.
