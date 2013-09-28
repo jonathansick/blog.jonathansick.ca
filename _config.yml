@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+name: Jonathan Sick
 pygments: true
+markdown: redcarpet
+redcarpet:
+      extensions: ["smart", "no_intra_emphasis", "autolink", "tables"]
