@@ -6,7 +6,7 @@ This is the repository for [blog.jonathansick.ca](http://blog.jonathansick.ca).
 
     jekyll serve --watch
 
-will automatically build and server to `localhost:4000`
+will automatically build and server to `localhost:4001`
 
     jekyll build --watch
 
