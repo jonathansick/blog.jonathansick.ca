@@ -7,9 +7,18 @@ $serif: "Georgia";
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
-// Font Sizes
-$base-font-size: 1rem; // this isn't supported in IE8
-$base-line-height: $base-font-size * 1.375;
+$base-font-size: 16px;
+$line-height-ratio: 1.5;
+$base-line-height: $line-height-ratio * $base-font-size / 16px;
+$rem-ratio: $base-font-size / 1rem;
+
+// Utility mixin for sizing in rem with px fallback
+// http://stackoverflow.com/questions/6927007/how-do-you-remove-units-of-measurement-from-a-sass-mixin-equation
+// Usage: rem(font-size,14px)
+@mixin rem($key, $px) {
+    #{$key}: $px;
+    #{$key}: $px / $rem-ratio;
+}
 
 body {
   font-family: $base-font-family;

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <title>{{ page.title }}</title>
-
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" media="screen, projection" href="/assets/css/screen.css" type="text/css" />
-
-    </head>
-    <body>
-
-          {{ content }}
-
-    </body>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" media="screen, projection" href="/assets/css/screen.css" type="text/css" />
+</head>
+<body>
+  {% include header.html %}
+  <section class="index-content">
+    {{ content }}
+  </section>
+  {% include footer.html %}
+</body>
 </html>
