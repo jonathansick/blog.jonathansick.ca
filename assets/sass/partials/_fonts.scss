@@ -20,3 +20,8 @@
     font-style: italic;
     font-weight: 700;
 }
+@mixin source-code-pro-regular {
+    font-family: "source-code-pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
