@@ -143,11 +143,7 @@ pre, code {
 }
 
 // Navigation ===============================================================
-
-.header-nav {
-    @include horizontal-list(1em);
-    @include museo-slab-700;
-    text-transform: uppercase;
+.page-header {
     a:link, a:visited {
         @include unstyled-link;
         color: $rev-link-color;
@@ -160,5 +156,10 @@ pre, code {
             outline: none;
         }
     }
+}
+.header-nav {
+    @include horizontal-list(1em);
+    @include museo-slab-700;
+    text-transform: uppercase;
     letter-spacing: 0.1em;
 }
