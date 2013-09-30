@@ -44,10 +44,17 @@ $midnightblue: #2c3e50;
 
 //  Font Colors
 $base-font-color: $midnightblue;
+$background-color: $clouds;
 
 //  Text Link Colors
-$base-link-color: $blue;
-$hover-link-color: darken($blue, 15%);
+$base-link-color: $belizehole;
+$hover-link-color: darken($base-link-color, 15%);
+
+// Reverse colour scheme (light on dark)
+$rev-background-color: $pomegranate;
+$rev-font-color: $clouds;
+$rev-link-color: $clouds;
+$rev-hover-color: darken($rev-link-color, 15%);
 
 // Border color
-$base-border-color: $light-gray;
+$base-border-color: $asbestos;

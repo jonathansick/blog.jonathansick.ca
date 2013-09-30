@@ -1,5 +1,19 @@
 // Styling the page headers
-
 .page-header-outer-wrapper {
-    background-color: #c0392b;
+    background-color: $rev-background-color;
+}
+.page-header {
+    color: $rev-font-color;
+    a:link, a:visited {
+        color: $rev-link-color;
+        @include transition(color 0.1s linear);
+        &:hover {
+            color: $rev-hover-color;
+        }
+
+        &:active, &:focus {
+            color: $rev-hover-color;
+            outline: none;
+        }
+    }
 }

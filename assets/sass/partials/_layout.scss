@@ -21,7 +21,7 @@ $break-columns : 12;
 
 @include at-breakpoint($break-columns) {
     .page-header-wrapper, .post-article, .page-footer-wrapper {
-        @include susy-grid-background;
+        // @include susy-grid-background;
     }
     .post-header {
         // span all columns
