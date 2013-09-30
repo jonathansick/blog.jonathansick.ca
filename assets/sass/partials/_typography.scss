@@ -20,12 +20,30 @@ $rem-ratio: $base-font-size / 1rem;
     #{$key}: $px / $rem-ratio;
 }
 
+// The font size for html is our root (rem) font size
+html {
+    font-size: $base-font-size;
+}
 body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  color: $base-font-color;
-  -webkit-font-smoothing: antialiased;
+    @include rem(font-size, $base-font-size);
+    font-family: $base-font-family;
+    line-height: $base-line-height;
+    color: $base-font-color;
+    -webkit-font-smoothing: antialiased;
+    @include hyphenation;
+}
+
+.no-hyphen {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+
+// Vertical rythm using rems and margin-bottom¬
+// https://github.com/csswizardry/hry.rbrts.me/blob/master/css/style.css#LC152
+// http://csswizardry.com/2011/12/measuring-and-sizing-uis-2011-style/
+h1,h2,h3,h4,h5,h6,article,p,ul,ol,dl,table,,nav,pre,.page-header-wrapper {
+    @include rem(margin-bottom, $line-height-ratio * $base-font-size);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,46 +51,47 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility; // Fix the character spacing for headings
 }
 
-h1 {
-  font-size: em(44);
-  line-height: $base-line-height * 2;
-  margin: $base-line-height 0;
+h1, .alpha {
+  @include rem(font-size, 2.4 * $base-font-size);
+  // line-height: $base-line-height * 2;
+  // margin: $base-line-height 0;
 }
 
-h2 {
-  font-size: em(32);
-  line-height: $base-line-height * 1.75;
-  margin: ($base-line-height * .75) 0;
+h2, .beta {
+  @include rem(font-size, 1.7 * $base-font-size);
+  // line-height: $base-line-height * 1.75;
+  // margin: ($base-line-height * .75) 0;
 }
 
-h3 {
-  font-size: em(28);
-  line-height: $base-line-height * 1.5;
-  margin: ($base-line-height * .5) 0;
+h3, .gamma {
+  @include rem(font-size, 1.5 * $base-font-size);
+  // line-height: $base-line-height * 1.5;
+  // margin: ($base-line-height * .5) 0;
 }
 
-h4 {
-  font-size: em(24);
-  line-height: $base-line-height * 1.25;
-  margin: ($base-line-height * .25) 0;
+h4, .delta {
+  @include rem(font-size, 1.3 * $base-font-size);
+  // line-height: $base-line-height * 1.25;
+  // margin: ($base-line-height * .25) 0;
 }
 
-h5 {
-  font-size: em(20);
-  line-height: $base-line-height;
-  margin: 0;
+h5, .epsilon {
+  @include rem(font-size, 1.1 * $base-font-size);
+  // line-height: $base-line-height;
+  // margin: 0;
 }
 
-h6 {
-  font-size: $base-font-size;
-  line-height: lh();
-  margin: 0;
+h6, .zeta {
+  @include rem(font-size, $base-font-size);
+  // font-size: $base-font-size;
+  // line-height: lh();
+  // margin: 0;
 }
 
 p {
   font-size: $base-font-size;
   font-weight: 400;
-  margin: 0 0 ($base-line-height * .5);
+  // margin: 0 0 ($base-line-height * .5);
 }
 
 a:link, a:visited {
@@ -94,12 +113,8 @@ hr {
   border-top: none;
   border-right: none;
   border-left: none;
-  margin: $base-line-height 0;
+  // margin: $base-line-height 0;
   border-bottom: 1px solid $base-border-color;
-}
-
-img {
-  margin: 0;
 }
 
 abbr, acronym {
@@ -109,11 +124,7 @@ abbr, acronym {
 
 address {
   display: block;
-  margin: 0 0 ($base-line-height * .5);
-}
-
-hgroup {
-  margin-bottom: $base-line-height * .5;
+  // margin: 0 0 ($base-line-height * .5);
 }
 
 del {
@@ -124,7 +135,7 @@ blockquote {
   border-left: 2px solid $base-border-color;
   color: lighten($base-font-color, 15%);
   font-style: italic;
-  margin: $base-line-height 0;
+  // margin: $base-line-height 0;
   padding-left: $base-line-height * .5;
 }
 
@@ -144,6 +155,12 @@ strong {
 
 pre, code {
   font-family: 'andale mono', 'monotype.com', 'lucida console', monospace, serif;
-  line-height: $base-line-height;
-  margin: ($base-line-height * .5) 0;
+  // line-height: $base-line-height;
+  // margin: ($base-line-height * .5) 0;
+}
+
+// Navigation ===============================================================
+
+.header-nav {
+    @include horizontal-list(1em);
 }
