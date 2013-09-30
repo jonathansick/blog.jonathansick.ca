@@ -147,4 +147,8 @@ pre, code {
     @include horizontal-list(1em);
     @include museo-slab-700;
     text-transform: uppercase;
+    a {
+        @include unstyled-link;
+        color: $base-link-color;
+    }
 }
