@@ -1,6 +1,4 @@
 name: Jonathan Sick
 port: 4001
 pygments: true
-markdown: redcarpet
-redcarpet:
-      extensions: ["smart", "no_intra_emphasis", "autolink", "tables"]
+markdown: rdiscount
