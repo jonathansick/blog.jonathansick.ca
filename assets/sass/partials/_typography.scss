@@ -19,6 +19,7 @@ html {
 }
 body {
     @include rem(font-size, $base-font-size);
+    line-height: $base-line-height;
     @include skolar;
     color: $base-font-color;
     -webkit-font-smoothing: antialiased;
