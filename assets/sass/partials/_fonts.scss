@@ -1,0 +1,22 @@
+// Typekit font definitions
+
+@mixin skolar {
+    font-family: "skolar", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+@mixin skolar-italic {
+    font-family: "skolar",serif;
+    font-style: italic;
+    font-weight: 400;
+}
+@mixin skolar-bold {
+    font-family: "skolar", serif;
+    font-style: normal;
+    font-weight: 700;
+}
+@mixin skolar-bold-italic {
+    font-family: "skolar", serif;
+    font-style: italic;
+    font-weight: 700;
+}

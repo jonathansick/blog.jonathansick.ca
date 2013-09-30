@@ -1,12 +1,5 @@
 // Typographic styling
 
-// Font Stack
-$sans-serif: "Helvetica";
-$serif: "Georgia";
-
-$base-font-family: $sans-serif;
-$header-font-family: $base-font-family;
-
 $base-font-size: 16px;
 $line-height-ratio: 1.5;
 $base-line-height: $line-height-ratio * $base-font-size / 16px;
@@ -26,8 +19,7 @@ html {
 }
 body {
     @include rem(font-size, $base-font-size);
-    font-family: $base-font-family;
-    line-height: $base-line-height;
+    @include skolar;
     color: $base-font-color;
     -webkit-font-smoothing: antialiased;
     @include hyphenation;
