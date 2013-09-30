@@ -46,32 +46,32 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .alpha {
   @include rem(font-size, 2.4 * $base-font-size);
-  @include skolar-bold;
+  @include museo-slab-1000;
 }
 
 h2, .beta {
   @include rem(font-size, 1.7 * $base-font-size);
-  @include skolar-bold;
+  @include museo-slab-1000;
 }
 
 h3, .gamma {
   @include rem(font-size, 1.5 * $base-font-size);
-  @include skolar-bold;
+  @include museo-slab-1000;
 }
 
 h4, .delta {
   @include rem(font-size, 1.3 * $base-font-size);
-  @include skolar-bold;
+  @include museo-slab-1000;
 }
 
 h5, .epsilon {
   @include rem(font-size, 1.1 * $base-font-size);
-  @include skolar-bold;
+  @include museo-slab-1000;
 }
 
 h6, .zeta {
   @include rem(font-size, $base-font-size);
-  @include skolar-bold;
+  @include museo-slab-1000;
 }
 
 p {
@@ -145,4 +145,6 @@ pre, code {
 
 .header-nav {
     @include horizontal-list(1em);
+    @include museo-slab-700;
+    text-transform: uppercase;
 }

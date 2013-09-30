@@ -25,3 +25,13 @@
     font-style: normal;
     font-weight: 400;
 }
+@mixin museo-slab-700 {
+    font-family: "museo-slab", serif;
+    font-style: normal;
+    font-weight: 700;
+}
+@mixin museo-slab-1000 {
+    font-family: "museo-slab", serif;
+    font-style: normal;
+    font-weight: 900;
+}
