@@ -148,9 +148,17 @@ pre, code {
     @include horizontal-list(1em);
     @include museo-slab-700;
     text-transform: uppercase;
-    a {
+    a:link, a:visited {
         @include unstyled-link;
-        color: $base-link-color;
+        color: $rev-link-color;
+        @include transition(color 0.1s linear);
+        &:hover {
+            color: $rev-hover-color;
+        }
+        &:active, &:focus {
+            color: $rev-hover-color;
+            outline: none;
+        }
     }
     letter-spacing: 0.1em;
 }
