@@ -39,3 +39,8 @@ $break-columns : 10;
         @include post(2, $break-columns);
     }
 }
+
+// Vertical leading
+.page-header-wrapper {
+    @include trailer(1);
+}
