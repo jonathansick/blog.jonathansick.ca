@@ -137,6 +137,11 @@ pre {
     @include trailer(1);
 }
 
+.post-aside {
+    @include adjust-font-size-to(0.8rem, 1);
+    color: $soft-font-color;
+}
+
 // Hiding text for screen-readers, maintains outline
 
 // Hide from both screenreaders and browsers: h5bp.com/u

@@ -18,7 +18,7 @@
       <header class="visuallyhidden"> 
         <h1>Meta</h1>
       </header>
-      <time>{{ page.date }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
     </aside>
     <div class="post-content">
       {{ content }}
