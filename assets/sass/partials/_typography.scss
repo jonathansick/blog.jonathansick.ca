@@ -11,7 +11,7 @@ html {
     font-size: $base-font-size;
 }
 body {
-    @include debug-vertical-alignment();
+    // @include debug-vertical-alignment();
     @include skolar;
     @include rem(font-size, 1rem);
     color: $base-font-color;
