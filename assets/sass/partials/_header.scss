@@ -5,6 +5,12 @@
 .page-header {
     color: $rev-font-color;
 }
+.page-header-lede {
+    @include skolar-bold-italic;
+    @include adjust-font-size-to(1.6rem, 1);
+    @include trailer(0);
+    @include leader(1);
+}
 
 .page-header {
     a:link, a:visited {
