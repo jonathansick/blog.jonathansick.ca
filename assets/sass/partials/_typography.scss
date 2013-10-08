@@ -35,36 +35,43 @@ h1, h2, h3, h4, h5, h6 {
 h1, .alpha {
     @include museo-slab-1000;
     @include adjust-font-size-to(3rem, 2);
+    @include trailer(1);
 }
 
 h2, .beta {
     @include museo-slab-1000;
     @include adjust-font-size-to(1.7rem, 2);
+    @include trailer(1);
 }
 
 h3, .gamma {
     @include museo-slab-1000;
     @include adjust-font-size-to(1.5rem, 2);
+    @include trailer(1);
 }
 
 h4, .delta {
     @include museo-slab-1000;
     @include adjust-font-size-to(1.3rem, 2);
+    @include trailer(1);
 }
 
 h5, .epsilon {
     @include rem(font-size, 1.1rem);
     @include museo-slab-1000;
     @include adjust-font-size-to(1.1rem, 2);
+    @include trailer(1);
 }
 
 h6, .zeta {
     @include museo-slab-1000;
     @include adjust-font-size-to(1rem, 2);
+    @include trailer(1);
 }
 
 p {
     @include adjust-font-size-to(1rem, 1);
+    @include trailer(1);
 }
 
 a:link, a:visited {
