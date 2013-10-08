@@ -135,6 +135,10 @@ strong {
 
 pre, code {
     @include source-code-pro-regular;
+    @include adjust-font-size-to(0.95rem, 1);
+}
+pre {
+    @include trailer(1);
 }
 
 // Navigation ===============================================================
