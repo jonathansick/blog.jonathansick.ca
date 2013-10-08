@@ -24,11 +24,9 @@ $break-columns : 10;
         // @include susy-grid-background;
     }
     .post-header {
-        // @include pre(1, $break-columns);
         @include span-columns($break-columns omega, $break-columns);
     }
     .post-aside {
-        // @include pre(1, $break-columns);
         @include span-columns(2, $break-columns);
     }
     .post-content {

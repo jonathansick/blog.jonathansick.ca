@@ -12,9 +12,8 @@ html {
 }
 body {
     @include debug-vertical-alignment();
-    @include rem(font-size, 1rem);
-    line-height: $base-line-height;
     @include skolar;
+    @include rem(font-size, 1rem);
     color: $base-font-color;
     background-color: $background-color;
     -webkit-font-smoothing: antialiased;
@@ -93,7 +92,6 @@ hr {
     border-top: none;
     border-right: none;
     border-left: none;
-    // margin: $base-line-height 0;
     border-bottom: 1px solid $base-border-color;
 }
 
@@ -104,7 +102,6 @@ abbr, acronym {
 
 address {
     display: block;
-    // margin: 0 0 ($base-line-height * .5);
 }
 
 del {
@@ -115,7 +112,6 @@ blockquote {
     border-left: 2px solid $base-border-color;
     color: lighten($base-font-color, 15%);
     font-style: italic;
-    // margin: $base-line-height 0;
     padding-left: $base-line-height * .5;
 }
 
