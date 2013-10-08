@@ -1,6 +1,7 @@
 // Styling the page headers
 .page-header-outer-wrapper {
     background-color: $rev-background-color;
+    @include padding-leader(1);
 }
 .page-header {
     color: $rev-font-color;
