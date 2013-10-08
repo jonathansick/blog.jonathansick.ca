@@ -1,6 +1,7 @@
 name: Jonathan Sick
 port: 4001
 pygments: true
+exclude: ["vendor", "Gemfile", "Gemfile.lock"]
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
 
