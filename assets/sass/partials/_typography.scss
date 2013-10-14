@@ -143,7 +143,18 @@ pre {
     color: $soft-font-color;
 }
 .post-aside {
+    @include leader(0);
     @include trailer(1);
+}
+.post-header {
+    @include trailer(1);
+}
+.post-subtitle {
+    @include leader(-1);
+    @include trailer(0);
+    @include skolar-bold-italic;
+    @include adjust-font-size-to(1.3rem, 1);
+    color: $soft-font-color;
 }
 
 // Hiding text for screen-readers, maintains outline
