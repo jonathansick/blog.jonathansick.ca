@@ -11,7 +11,7 @@ $break-columns : 10;
 
 // Container
 
-.page-header-wrapper, .post-article, .page-footer-wrapper {
+.page-header-wrapper, .index-wrapper, .post-article, .page-footer-wrapper {
     @include container;
     // @include susy-grid-background;
     @include at-breakpoint($break-columns) {
@@ -20,9 +20,9 @@ $break-columns : 10;
 }
 
 @include at-breakpoint($break-columns) {
-    .page-header-wrapper, .post-article, .page-footer-wrapper {
-        // @include susy-grid-background;
-    }
+    // .page-header-wrapper, .index-wrapper, .post-article, .page-footer-wrapper {
+    //     @include susy-grid-background;
+    // }
     .post-header {
         @include span-columns($break-columns omega, $break-columns);
     }
@@ -33,7 +33,25 @@ $break-columns : 10;
         @include span-columns(6 omega, $break-columns);
         @include post(2, $break-columns);
     }
+    .index-ephemera-section {
+        @include span-columns(3, $break-columns);
+    }
+    .index-articles-section {
+        @include span-columns(5 omega, $break-columns);
+        @include post(2, $break-columns);
+    }
+    .index-articles-datecol {
+        @include span-columns(2, 5);
+    }
+    .index-articles-titlecol {
+        @include span-columns(3 omega, 5);
+    }
     .page-header, .page-footer {
+        @include pre(3, $break-columns);
+        @include span-columns(5 omega, $break-columns);
+        @include post(2, $break-columns);
+    }
+    .post-page-header, .post-page-footer {
         @include pre(2, $break-columns);
         @include span-columns(6 omega, $break-columns);
         @include post(2, $break-columns);

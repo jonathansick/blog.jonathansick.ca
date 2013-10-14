@@ -3,11 +3,37 @@ layout: default
 title: Jonathan Sick
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+<div class="index-wrapper">
+  <section class="index-ephemera-section">
+    <header>
+    <h1 class="index-section-h">Ephemera</h1>
+    </header>
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <article>
+      <header>
+        <h1 class="zeta no-trailer"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      </header>
+      <aside>
+        <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+      </aside>
+    </article>
     {% endfor %}
-  </ul>
+  </section>
+  <section class="index-articles-section">
+    <header>
+    <h1 class="index-section-h">Articles</h1>
+    </header>
+    {% for post in site.posts %}
+      <article>
+        <aside class="index-articles-datecol">
+          <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+        </aside>
+        <header class="index-articles-titlecol">
+          <h1 class="zeta">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h1>
+        </header>
+      </article>
+    {% endfor %}
+  </section>
 </div>

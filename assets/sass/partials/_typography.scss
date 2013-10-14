@@ -25,6 +25,9 @@ body {
     -moz-hyphens: none;
     hyphens: none;
 }
+.no-trailer {
+    @include trailer(0);
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
@@ -51,7 +54,7 @@ h3, .gamma {
 
 h4, .delta {
     @include museo-slab-1000;
-    @include adjust-font-size-to(1.3rem, 2);
+    @include adjust-font-size-to(1.3rem, 1);
     @include trailer(1);
 }
 
@@ -63,8 +66,12 @@ h5, .epsilon {
 }
 
 h6, .zeta {
+    @include skolar;
+    @include adjust-font-size-to(1rem, 1);
+}
+.index-section-h {
     @include museo-slab-1000;
-    @include adjust-font-size-to(1rem, 2);
+    @include adjust-font-size-to(1.3rem, 1);
     @include trailer(1);
 }
 

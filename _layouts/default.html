@@ -8,10 +8,8 @@
   <link rel="stylesheet" media="screen, projection" href="/assets/css/screen.css" type="text/css" />
 </head>
 <body>
-  {% include header.html %}
-  <section class="index-content">
-    {{ content }}
-  </section>
-  {% include footer.html %}
+{% include page_header.html %}
+{{ content }}
+{% include page_footer.html %}
 </body>
 </html>

@@ -3,7 +3,7 @@
     background-color: $rev-background-color;
     @include padding-leader(1);
 }
-.page-header {
+.page-header, .post-page-header {
     color: $rev-font-color;
 }
 .page-header-lede {
@@ -13,7 +13,7 @@
     @include leader(1);
 }
 
-.page-header {
+.page-header, .post-page-header {
     a:link, a:visited {
         @include unstyled-link;
         color: $rev-link-color;
