@@ -142,6 +142,9 @@ pre {
     @include trailer(0);
     color: $soft-font-color;
 }
+.post-aside {
+    @include trailer(1);
+}
 
 // Hiding text for screen-readers, maintains outline
 
