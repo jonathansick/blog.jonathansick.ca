@@ -137,8 +137,9 @@ pre {
     @include trailer(1);
 }
 
-.post-aside {
+.post-aside p {
     @include adjust-font-size-to(0.8rem, 1);
+    @include trailer(0);
     color: $soft-font-color;
 }
 
