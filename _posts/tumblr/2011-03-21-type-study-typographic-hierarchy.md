@@ -5,6 +5,6 @@ tags:
 - design
 - Typography
 ---
-Type study: Typographic hierarchyFrom Frank Chimero, an elegant introduction to how typography works.
+From Frank Chimero, an elegant introduction to how typography works.
 
 (via Instapaper)

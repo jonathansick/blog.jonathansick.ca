@@ -4,9 +4,7 @@ title: Brooklyn at 30 fps
 tags:
 - photography
 ---
-Brooklyn at 30 fpsMotion landscape photography is an intriguing idea that Cameron Moll puts to great effect in this video. And he nicely pairs the visuals with some Explosions in the Sky. Short but sweet. (Click on the title for a full-size version)
-
-
+Motion landscape photography is an intriguing idea that Cameron Moll puts to great effect in this video. And he nicely pairs the visuals with some Explosions in the Sky. Short but sweet. (Click on the title for a full-size version)
 
 Brooklyn from Cameron Moll on Vimeo.
 

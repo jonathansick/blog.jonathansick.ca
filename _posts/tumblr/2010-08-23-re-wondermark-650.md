@@ -7,5 +7,3 @@ tags:
 Re: Wondermark #650
 
 Oh Papyrus…
-
-(via my girlfriend who knows me too well)

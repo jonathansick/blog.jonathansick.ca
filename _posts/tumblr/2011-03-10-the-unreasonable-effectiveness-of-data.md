@@ -6,6 +6,6 @@ tags:
 - statistics
 - nosql
 ---
-The Unreasonable Effectiveness of DataThoughtful research paper from Google on the potency of Big Data for solving problems that have no fundamental, analytical, solution.
+Thoughtful research paper from Google on the potency of Big Data for solving problems that have no fundamental, analytical, solution.
 
 (via myNoSql.)

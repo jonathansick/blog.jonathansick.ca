@@ -4,4 +4,4 @@ title: Hipster Ipsum
 tags:
 - webdesign
 ---
-Hipster IpsumBecause lorem ipsum is so Web 1.0.
+Because lorem ipsum is so Web 1.0.

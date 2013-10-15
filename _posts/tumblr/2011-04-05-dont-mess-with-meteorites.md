@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Don't mess with meteorites
+title: "Don't mess with meteorites"
 tags:
 - astronomy
 - nytimes
 ---
-Don''t mess with meteorites
+Don't mess with meteorites

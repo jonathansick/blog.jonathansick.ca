@@ -1,10 +1,10 @@
 ---
 layout: post
-title: |-
-  The climbing constellations move in semitones;
-  And set behind the county line in the melody of gravitation.
+title: Quote from Hold Your Breath
 tags:
 - music
 ---
-The climbing constellations move in semitones;
-And set behind the county line in the melody of gravitation.—The Acorn, in “Hold Your Breath”
+>The climbing constellations move in semitones;
+>And set behind the county line in the melody of gravitation.
+
+&mdash;The Acorn, in “Hold Your Breath”

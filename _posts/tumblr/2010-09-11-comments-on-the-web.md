@@ -19,11 +19,10 @@ The solution is simple: don’t publish comments—it’s ok, I’ll still read 
 Two of my favourite blogs, Daring Fireball, and shawnblanc.net, don’t publish comments. John Gruber neatly summed this policy up by saying:
 
 
-  You write on your site; I write on mine. That’s a response. […]
+> You write on your site; I write on mine. That’s a response. […]
   
-  What makes DF an efficient and effective soapbox is exactly that it is not noisy.
-  My goal is for not a single wasted word to appear anywhere on any page of the site.
-
+> What makes DF an efficient and effective soapbox is exactly that it is not noisy.
+> My goal is for not a single wasted word to appear anywhere on any page of the site.
 
 This is the web, if you have something to say then you should get a website and write. There is no need to centralize discussion on a single website.  You still see interesting discussions arising from Daring Fireball articles: each party writes a well thought out piece, and the conversing parties hyperlink their articles together. And by requiring each party to post to their own blog you get, in the least, spell checking, and quite often, better quality of thought. When people write under their own names, they often communicate intelligently.
 

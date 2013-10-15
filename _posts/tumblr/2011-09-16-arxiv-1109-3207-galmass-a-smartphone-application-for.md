@@ -5,11 +5,9 @@ title: 'arXiv:1109.3207 — GalMass: A Smartphone Application for Estimating Gal
 tags:
 - arxiv
 ---
-arXiv:1109.3207 — GalMass: A Smartphone Application for Estimating Galaxy MassesKyle R. Stewart writes:
+Kyle R. Stewart writes:
 
-
-  A secondary goal of GalMass is to encourage the scientific community to consider the development of scientific-level applications in the growing smartphone market-place (e.g., the “Android Market” or [sic] the Apple’s “App Store”). While a number of astronomy applications exist in these markets, they are typically intended for a public audience. There are very few applications that are developed from within the scientific community for productive use in the scientific community (examples of such scientific applications developed by professional astronomers include GravLensHD, CosmoCalc, and Exoplanet).
-
+> A secondary goal of GalMass is to encourage the scientific community to consider the development of scientific-level applications in the growing smartphone market-place (e.g., the “Android Market” or [sic] the Apple’s “App Store”). While a number of astronomy applications exist in these markets, they are typically intended for a public audience. There are very few applications that are developed from within the scientific community for productive use in the scientific community (examples of such scientific applications developed by professional astronomers include GravLensHD, CosmoCalc, and Exoplanet).
 
 I’m all for developing innovative technologies for astronomy, but may I count myself as skeptical of this initiative. This may be the post-PC era, but it doesn’t mean that we all have to do everything on our phones—including estimating galaxy masses.
 

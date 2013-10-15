@@ -4,7 +4,7 @@ title: Hubble Data Used to Look 10,000 Years into the Future
 tags:
 - astronomy
 ---
-Hubble Data Used to Look 10,000 Years into the FutureAstronomers love to say that our telescopes are time machines: we regularly look at the universe as it was thousands, millions, and billions of years ago. It was a surprise then when I got a press release from STScI that the Hubble is being used to look 10,000 years into the future.
+Astronomers love to say that our telescopes are time machines: we regularly look at the universe as it was thousands, millions, and billions of years ago. It was a surprise then when I got a press release from STScI that the Hubble is being used to look 10,000 years into the future.
 
 What’s actually happening here is that we can predict how a globular cluster, Omega Cen, will look in the future. By looking at the motion of cluster stars across pictures taken a few years apart, Jay Anderson and Roeland van der Marel at STScI were able extrapolate the dynamics of individual stars in the cluster. Amazing stuff.
 

@@ -4,7 +4,7 @@ title: Even better NASA ADS searches with Alfred
 tags:
 - mac
 ---
-Even better NASA ADS searches with AlfredThe internet is awesome. No more than ten hours after posting about using Alfred to query NASA ADS did my friend, and NYU graduate student, Daniel Foreman-Mackey figure out an even better way to query ADS.
+The internet is awesome. No more than ten hours after posting about using Alfred to query NASA ADS did my friend, and NYU graduate student, Daniel Foreman-Mackey figure out an even better way to query ADS.
 
 In the last post I mentioned that Alfred used only a single search field, making a seamingly straightforward author-year search a bit clumsy. Dan fixed this by hosting a page on GitHub that parses author and year from a search and feeds that into the ADS advanced query page, making for fast and accurate searches. Its a thing of JavaScript beauty.
 

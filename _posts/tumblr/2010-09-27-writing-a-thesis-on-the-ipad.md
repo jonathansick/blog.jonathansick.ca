@@ -20,16 +20,14 @@ But still, how do we get a thesis into Writer on the iPad? Since Writer stores a
 
 My work-around is a Python script: writer.py. From a git repository with a latex manuscript type:
 
-writer.py -s
+    writer.py -s
 
 This will send all .tex files to the Writer directory in Dropbox. To support multiple projects, the base directory of the Git repository is prepended to the file name. For example, msc/abstract.tex will be copied as msc_abstract.txt.
 
 After you’ve edited the manuscript on the iPad, and you’re ready to pick up on the changes at your workstation, type
 
-writer.py -g
+    writer.py -g
 
 This will ‘get’ all the text files for the project from Dropbox and copy them back into the Git repository.
 
 And that’s it. Here’s the script as a Github snippet.
-
- 

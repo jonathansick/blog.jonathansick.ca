@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'David Bowie'
 tags:
 - music
 ---

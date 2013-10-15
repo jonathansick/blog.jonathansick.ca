@@ -4,8 +4,6 @@ title: A modest proposal
 tags:
 - geek love
 ---
-A modest proposalRidiculously cute.
-
-
+Ridiculously cute.
 
 (via TUAW)

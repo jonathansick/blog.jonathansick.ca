@@ -1,5 +1,6 @@
 ---
 layout: post
-title: Sebastian Vettel in the Senna ‘S’. Notice how he unloads the front-right tire.
+title: Sebastian Vettel in the Senna ‘S’.
 tags: 
 ---
+Notice how he unloads the front-right tire.

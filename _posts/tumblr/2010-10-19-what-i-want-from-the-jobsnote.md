@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What I want from the Jobsnote:'
+title: 'What I want from the Jobsnote'
 tags:
 - mac
 ---
