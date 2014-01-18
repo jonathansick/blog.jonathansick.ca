@@ -13,8 +13,18 @@ First get `rbenv` and `bundle`.
     rbenv install 1.9.3-p392
     rbenv install 2.0.0-p247
 
-In this project repo run
+Next, note that we have two separete Gemfile setups to manage conflicting dependencies:
+One for Jekyll at the base of this project, and another in `assets` for Sass/Compass.
 
+In the base project directory run
+
+    rbenv local 2.0.0-p247
+    bundle install
+    rbenv rehash
+
+And in a separete terminal for the sass (assets)
+
+    cd assets
     rbenv local 2.0.0-p247
     bundle install
     rbenv rehash
@@ -23,25 +33,18 @@ In this project repo run
 
 To automatically build and server to `localhost:4001`:
 
-    jekyll serve --watch
+    bundle exec jekyll serve --watch
 
 To only build the site:
 
-    jekyll build --watch
+    bundle exec jekyll build --watch
 
 To generate CSS:
 
-    bundle exec compass watch assets/
-
-### Note on Jankness
-
-You'll note that Jekyll is run through the system Ruby, while compass is run through the `rbenv` environment.
-This lets us use the latest compass to get vertical rhythm, while using the system's Jekyll, which works.
-The problem is that posix-spawn-0.3.6 generates a segmentation fault while running through a vendor install in rbenv.
-
-    posix-spawn-0.3.6/lib/posix_spawn_ext.bundle: [BUG] Segmentation
+    cd assets
+    bundle exec compass watch .
 
 
-***
+## Info
 
-Copyright 2013 Jonathan Sick. License CC-BY.
+Copyright 2014 Jonathan Sick. License CC-BY.
