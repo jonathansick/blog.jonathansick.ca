@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Green power in the US Navy
 tags:
 - society

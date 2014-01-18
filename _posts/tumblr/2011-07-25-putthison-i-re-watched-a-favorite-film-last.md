@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: To Catch a Thief
 tags:
 - style

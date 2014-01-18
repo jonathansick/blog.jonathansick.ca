@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Master of Science
 tags:
 - astronomy

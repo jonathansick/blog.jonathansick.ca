@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Krugman: The Centrist Cop-Out'
 tags:
 - society

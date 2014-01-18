@@ -1,5 +1,6 @@
 ---
 layout: post
+type: article
 title: Regarding the iPad and the Astronomer
 tags:
 - workflow

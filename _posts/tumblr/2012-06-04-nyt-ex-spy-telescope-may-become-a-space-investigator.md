@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'NYT: Ex-Spy Telescope May Become a Space Investigator'
 tags: 
 ---

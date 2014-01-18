@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Further thoughts on 'Smart Phone' astronomy apps
 tags:
 - astronomy

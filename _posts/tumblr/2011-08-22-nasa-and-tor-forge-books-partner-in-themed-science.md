@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: NASA And Tor-Forge Books Partner In Themed Science Fiction Works
 tags:
 - literature

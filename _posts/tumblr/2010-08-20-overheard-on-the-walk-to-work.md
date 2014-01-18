@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Overheard on the walk to work.
 tags:
 - society

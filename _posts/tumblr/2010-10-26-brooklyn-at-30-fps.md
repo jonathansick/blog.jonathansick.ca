@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Brooklyn at 30 fps
 tags:
 - photography

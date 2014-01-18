@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'WSJ: The Great Global Warming Fizzle'
 tags:
 - society

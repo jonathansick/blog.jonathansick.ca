@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'arXiv:1008.0395: Fitting the integrated Spectral Energy Distributions of Galaxies'
 tags:
 - arxiv

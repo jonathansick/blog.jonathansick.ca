@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Naz Hamid
 tags:
 - life

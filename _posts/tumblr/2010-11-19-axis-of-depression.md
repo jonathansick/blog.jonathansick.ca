@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Axis of Depression
 tags:
 - politics

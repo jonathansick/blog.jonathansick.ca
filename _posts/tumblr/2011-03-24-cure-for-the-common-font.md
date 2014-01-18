@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Cure for the common font
 tags:
 - design

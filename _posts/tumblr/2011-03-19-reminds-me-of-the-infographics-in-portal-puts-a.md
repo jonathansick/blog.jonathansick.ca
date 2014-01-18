@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'House in Nakameguro'
 tags:
 - architecture

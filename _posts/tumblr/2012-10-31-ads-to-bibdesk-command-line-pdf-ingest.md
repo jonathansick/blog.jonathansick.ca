@@ -1,5 +1,6 @@
 ---
 layout: post
+type: article
 title: 'ADS to BibDesk: Command Line & PDF Ingest'
 tags:
 - adsbibdesk

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Can the middle class be saved?
 tags:
 - society

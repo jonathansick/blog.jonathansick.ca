@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Lion's Andromeda Background
 tags:
 - mac

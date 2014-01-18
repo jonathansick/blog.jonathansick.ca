@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: The physics of Angry Birds
 tags:
 - physics

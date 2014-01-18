@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'What I want from the Jobsnote'
 tags:
 - mac

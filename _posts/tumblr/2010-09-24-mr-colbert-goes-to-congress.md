@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Mr Colbert goes to Congress
 tags:
 - society

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Reuters: Space industrial base is facing a crisis'
 tags:
 - space program

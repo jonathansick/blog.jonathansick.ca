@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: And yes, I am wearing corduroy on the day that most resembles it
 tags:
 - style

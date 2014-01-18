@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Classical Electrodynamics, Robert G. Brown
 tags:
 - queens

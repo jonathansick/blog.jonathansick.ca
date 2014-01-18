@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Dad's in the news again...
 tags:
 - family

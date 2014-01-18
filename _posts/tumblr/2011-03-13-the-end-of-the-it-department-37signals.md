@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: The end of the IT department - (37signals)
 tags:
 - queens

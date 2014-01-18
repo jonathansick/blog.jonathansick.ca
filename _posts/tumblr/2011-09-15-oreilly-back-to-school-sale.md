@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: O'Reilly Back to School Sale
 tags:
 - books

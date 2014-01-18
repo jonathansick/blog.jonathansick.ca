@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Help kickstart Urbanized
 tags:
 - design

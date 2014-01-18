@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Visualization of software development
 tags:
 - visualization

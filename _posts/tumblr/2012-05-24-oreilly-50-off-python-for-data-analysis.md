@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'O''Reilly: 50% off ''Python for Data Analysis'''
 tags: 
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Patterns in Python
 tags:
 - python

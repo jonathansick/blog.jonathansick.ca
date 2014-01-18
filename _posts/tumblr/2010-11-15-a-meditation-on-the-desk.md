@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: A Meditation on the Desk
 tags:
 - video

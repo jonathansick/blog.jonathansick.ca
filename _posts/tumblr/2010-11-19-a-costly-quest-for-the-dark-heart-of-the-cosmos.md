@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: A Costly Quest for the Dark Heart of the Cosmos
 tags:
 - politics

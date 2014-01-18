@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Of swarp, configure, and the case of the 64 bits.
 tags:
 - astronomy

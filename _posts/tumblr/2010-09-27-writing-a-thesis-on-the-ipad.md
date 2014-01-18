@@ -1,5 +1,6 @@
 ---
 layout: post
+type: article
 title: Writing a thesis on the iPad
 tags:
 - workflow

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Even better NASA ADS searches with Alfred
 tags:
 - mac

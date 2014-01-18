@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Comic Sans and the Higgs
 tags: 
 ---

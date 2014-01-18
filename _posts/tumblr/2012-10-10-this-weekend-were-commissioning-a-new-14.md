@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Queen's Observatory
 tags: 
 ---

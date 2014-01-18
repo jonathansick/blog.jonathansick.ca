@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: NSA's Snow Leopard Hardening Tips
 tags: 
 ---

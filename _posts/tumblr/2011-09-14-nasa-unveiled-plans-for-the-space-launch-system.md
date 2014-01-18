@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Space Launch System
 tags:
 - nasa

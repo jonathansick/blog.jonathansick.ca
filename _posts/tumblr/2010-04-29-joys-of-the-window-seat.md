@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Joys of the Window Seat (via New York Times)
 tags:
 - travel

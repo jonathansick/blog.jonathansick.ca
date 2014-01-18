@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Logbook: Impressive Logging for Python'
 tags:
 - python

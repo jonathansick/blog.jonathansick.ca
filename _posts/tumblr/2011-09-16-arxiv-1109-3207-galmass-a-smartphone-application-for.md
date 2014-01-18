@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'arXiv:1109.3207 — GalMass: A Smartphone Application for Estimating Galaxy
   Masses'
 tags:

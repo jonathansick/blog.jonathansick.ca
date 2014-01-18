@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: A Field Guide to Clouds
 tags:
 - science

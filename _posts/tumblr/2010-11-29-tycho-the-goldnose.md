@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Tycho the Goldnose
 tags:
 - astronomy

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: John Siracusa Reviews Lion
 tags:
 - mac

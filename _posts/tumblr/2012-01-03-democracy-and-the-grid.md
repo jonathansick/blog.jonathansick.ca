@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Democracy and the Grid
 tags:
 - design

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Visualizations of Radiation in Japan
 tags:
 - visualization

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Here’s to the crazy ones.
 tags:
 - apple

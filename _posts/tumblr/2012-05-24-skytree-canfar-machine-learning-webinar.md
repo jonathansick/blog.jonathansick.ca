@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'SKYTREE+CANFAR: Machine Learning Webinar'
 tags: 
 ---

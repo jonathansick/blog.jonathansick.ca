@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Alfred searches for Scipy & Numpy Documentation
 tags:
 - mac

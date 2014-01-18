@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Z-410: How ZFS is slowly making its way to Mac OS X'
 tags:
 - mac

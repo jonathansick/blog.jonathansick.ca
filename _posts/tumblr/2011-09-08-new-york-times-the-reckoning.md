@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'New York Times: The Reckoning'
 tags:
 - society

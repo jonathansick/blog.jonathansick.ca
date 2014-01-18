@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Better with a beard
 tags: 
 ---

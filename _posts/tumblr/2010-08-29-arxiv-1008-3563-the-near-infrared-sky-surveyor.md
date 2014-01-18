@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: arxiv:1008.3563 The Near-Infrared Sky Surveyor
 tags:
 - arxiv

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: The xx on The Sound of Young America
 tags:
 - music

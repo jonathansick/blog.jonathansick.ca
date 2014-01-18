@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Two Entire Apollo Space Programs
 tags: 
 ---

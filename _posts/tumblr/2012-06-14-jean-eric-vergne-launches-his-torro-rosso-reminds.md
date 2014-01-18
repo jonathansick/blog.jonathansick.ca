@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Jean-Eric Vergne
 tags: 
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: A Canopy as Social Cathedral
 tags: 
 ---

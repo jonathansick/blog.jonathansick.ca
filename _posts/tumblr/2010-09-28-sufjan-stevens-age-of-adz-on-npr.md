@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Sufjan Stevens' Age of Adz on NPR
 tags:
 - music

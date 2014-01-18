@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Ars Technica: Cisco''s "unmitigated gall"'
 tags:
 - society

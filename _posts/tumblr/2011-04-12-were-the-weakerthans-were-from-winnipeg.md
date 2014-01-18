@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: We’re the Weakerthans, We’re from Winnipeg
 tags:
 - music

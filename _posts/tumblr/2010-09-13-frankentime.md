@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Frankentime
 tags:
 - society

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Hipster Ipsum
 tags:
 - webdesign

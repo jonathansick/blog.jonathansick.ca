@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Github is your resumé
 tags:
 - astronomy

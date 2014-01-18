@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: No more federal money for NPR?
 tags:
 - politics

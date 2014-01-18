@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Comments on the Web
 tags:
 - society

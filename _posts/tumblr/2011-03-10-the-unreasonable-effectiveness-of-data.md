@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: The Unreasonable Effectiveness of Data
 tags:
 - science

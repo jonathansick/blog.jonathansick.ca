@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Dogs in Cars'
 tags: 
 ---

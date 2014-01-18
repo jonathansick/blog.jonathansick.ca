@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Vim, from across the room
 tags:
 - text editors

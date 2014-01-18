@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Nathalie in the News
 tags: 
 ---

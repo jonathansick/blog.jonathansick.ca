@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Webcast: Erlang for Python Programmers'
 tags:
 - programming

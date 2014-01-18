@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: "George, the Great Dane"
 tags:
 - animals

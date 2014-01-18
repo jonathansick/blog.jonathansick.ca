@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Doctor Mew by Jenny Parks
 tags:
 - links

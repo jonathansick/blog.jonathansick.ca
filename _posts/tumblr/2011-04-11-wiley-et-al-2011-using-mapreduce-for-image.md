@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Wiley et al (2011): Using MapReduce for Image Co-Addition'
 tags:
 - astronomy

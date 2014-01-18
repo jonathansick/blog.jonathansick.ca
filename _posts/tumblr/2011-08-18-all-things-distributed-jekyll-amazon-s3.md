@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'All Things Distributed: Jekyll & Amazon S3'
 tags:
 - s3

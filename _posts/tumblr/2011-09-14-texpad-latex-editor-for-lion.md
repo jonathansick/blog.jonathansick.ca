@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Texpad: LaTeX editor for Lion'
 tags:
 - mac

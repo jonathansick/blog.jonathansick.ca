@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: "Professor Jim Peebles came by Queen’s today"
 tags:
 - queens

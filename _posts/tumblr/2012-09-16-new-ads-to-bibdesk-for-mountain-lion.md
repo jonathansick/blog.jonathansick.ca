@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: New ADS to BibDesk for Mountain Lion
 tags: 
 ---

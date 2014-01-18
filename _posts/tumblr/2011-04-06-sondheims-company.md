@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: "Sondheim's Company"
 tags:
 - art

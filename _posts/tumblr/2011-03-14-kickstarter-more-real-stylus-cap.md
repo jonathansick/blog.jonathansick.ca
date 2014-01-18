@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Kickstarter - MORE/REAL Stylus Cap
 tags:
 - kickstarter

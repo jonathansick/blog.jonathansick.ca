@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Roasted marshmallow and s'mores milkshakes
 tags: 
 ---

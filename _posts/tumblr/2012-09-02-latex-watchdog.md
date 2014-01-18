@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Continuous LaTeX Compilation with a Python Watchdog
 tags:
 - python

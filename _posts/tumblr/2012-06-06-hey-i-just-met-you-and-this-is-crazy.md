@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'Hey! I just met you'
 tags: 
 ---

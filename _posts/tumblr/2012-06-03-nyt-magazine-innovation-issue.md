@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'NYT Magazine: Innovation Issue'
 tags:
 - nytimes

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Sounds of Urbanized
 tags:
 - urbanized

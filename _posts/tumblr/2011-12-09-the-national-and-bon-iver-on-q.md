@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: The National and Bon Iver on Q
 tags:
 - music

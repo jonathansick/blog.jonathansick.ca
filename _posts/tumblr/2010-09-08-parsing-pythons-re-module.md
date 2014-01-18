@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Parsing Python's re Module
 tags:
 - python

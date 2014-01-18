@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: 'NYT: Businesses Take Flight, With Help From NASA'
 tags:
 - space program

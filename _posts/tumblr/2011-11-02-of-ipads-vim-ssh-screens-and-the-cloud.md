@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Of iPads, vim, ssh, screen, and the cloud
 tags:
 - ipad

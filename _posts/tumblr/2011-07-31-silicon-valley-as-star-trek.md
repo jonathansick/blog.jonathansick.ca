@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Silicon Valley as Star Trek
 tags:
 - mac

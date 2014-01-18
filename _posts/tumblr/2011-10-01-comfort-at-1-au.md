@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Comfort at 1 AU
 tags:
 - astronomy

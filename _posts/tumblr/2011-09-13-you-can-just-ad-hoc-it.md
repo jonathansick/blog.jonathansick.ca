@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: '''You can just ad hoc it'''
 tags:
 - mongodb

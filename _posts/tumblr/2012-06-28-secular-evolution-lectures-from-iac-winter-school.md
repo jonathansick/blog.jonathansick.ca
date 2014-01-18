@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Secular Evolution Lectures from IAC Winter School
 tags: 
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Khoi Vinh, on the grid
 tags:
 - design

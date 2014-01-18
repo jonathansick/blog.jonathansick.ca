@@ -1,5 +1,6 @@
 ---
 layout: post
+type: article
 title: Field Notes Dry Transfer Edition
 tags: 
 ---

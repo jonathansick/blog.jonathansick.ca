@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Rice Profs bring free "Super WiFi" to working-class Houston
 tags:
 - rice

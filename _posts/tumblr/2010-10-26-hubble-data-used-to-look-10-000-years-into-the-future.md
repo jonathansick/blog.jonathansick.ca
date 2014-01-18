@@ -1,5 +1,6 @@
 ---
 layout: post
+type: cpb
 title: Hubble Data Used to Look 10,000 Years into the Future
 tags:
 - astronomy
