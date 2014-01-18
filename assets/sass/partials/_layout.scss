@@ -3,58 +3,94 @@
 // Base grid settings (mobile-first)
 $total-columns : 6;
 $column-width : 4em;
-$gutter-width : 1em;
-$grid-padding : $gutter-width;
+// $gutter-width : 1em;
+// $grid-padding : $gutter-width;
 
 // Grid settings for tablet/desktop
 $break-columns : 10;
 
+// the basics
+// $columns: 12;
+// $column-width: 4em;
+$gutter-width: 1em;
+// $grid-padding: 1em;
+
+// advanced
+$container-width: false;
+$container-style: magic;
+$from-direction: left;
+$omega-float: right;
+
+$susy: (
+    // the basics
+    columns: $total-columns,
+    gutters: $gutter-width / $column-width,
+    column-width: $column-width,
+
+    // advanced
+    container: $container-width,
+    math: if($container-style == magic, fluid, $container-style),
+    flow: if($from-direction == right, rtl, ltr),
+    last-flow: if($omega-float == $from-direction, from, to),
+);
+
 // Container
 
 .page-header-wrapper, .index-wrapper, .post-article, .page-footer-wrapper {
-    @include container;
+    @include container($total-columns);
     // @include susy-grid-background;
-    @include at-breakpoint($break-columns) {
-        @include set-container-width;
+    @include susy-breakpoint(45em, $break-columns) {
+        max-width: container($break-columns);
     }
 }
 
-@include at-breakpoint($break-columns) {
+@include susy-breakpoint(45em, $break-columns) {
     // .page-header-wrapper, .index-wrapper, .post-article, .page-footer-wrapper {
     //     @include susy-grid-background;
     // }
     .post-header {
-        @include span-columns($break-columns omega, $break-columns);
+        // @include span-columns($break-columns omega, $break-columns);
+        @include span(last $break-columns of $break-columns ltr fluid);
+        // .old { @include span-columns(3 omega, 12, $padding, left, static); }
+        // .new { @include span(last 3 of 12 ltr static); }
     }
     .post-aside {
-        @include span-columns(2, $break-columns);
+        // @include span-columns(2, $break-columns);
+        @include span(2 of $break-columns ltr fluid);
     }
     .post-content {
-        @include span-columns(6 omega, $break-columns);
-        @include post(2, $break-columns);
+        // @include span-columns(6 omega, $break-columns);
+        @include span(last 6 of $total-columns ltr fluid);
+        // @include post(2, $break-columns);
+        @include post(2 of $break-columns);
     }
     .index-ephemera-section {
-        @include span-columns(3, $break-columns);
+        // @include span-columns(3, $break-columns);
+        @include span(3 of $break-columns ltr fluid);
     }
     .index-articles-section {
-        @include span-columns(5 omega, $break-columns);
-        @include post(2, $break-columns);
+        // @include span-columns(5 omega, $break-columns);
+        @include span(last 5 of $break-columns);
+        // @include post(2, $break-columns);
+        @include post(2 of $break-columns);
     }
     .index-articles-datecol {
-        @include span-columns(2, 5);
+        // @include span-columns(2, 5);
+        @include span(2 of 5);
     }
     .index-articles-titlecol {
-        @include span-columns(3 omega, 5);
+        // @include span-columns(3 omega, 5);
+        @include span(last 3 of 5);
     }
     .page-header, .page-footer {
-        @include pre(3, $break-columns);
-        @include span-columns(5 omega, $break-columns);
-        @include post(2, $break-columns);
+        @include pre(3 of $break-columns);
+        @include span(last 5 of $break-columns);
+        @include post(2 of $break-columns);
     }
     .post-page-header, .post-page-footer {
-        @include pre(2, $break-columns);
-        @include span-columns(6 omega, $break-columns);
-        @include post(2, $break-columns);
+        @include pre(2 of $break-columns);
+        @include span(last 6 of $break-columns);
+        @include post(2 of $break-columns);
     }
 }
 
