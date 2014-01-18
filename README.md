@@ -17,6 +17,7 @@ In this project repo run
 
     rbenv local 2.0.0-p247
     bundle install
+    rbenv rehash
 
 ## Commands for Building the Site
 
