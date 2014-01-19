@@ -6,7 +6,7 @@ title: Jonathan Sick
 <div class="index-wrapper">
   <section class="index-ephemera-section">
     <header>
-    <h1 class="index-section-h">Ephemera</h1>
+    <h1 class="utility-header">Commonplace Book</h1>
     </header>
     {% for post in site.posts limit:20 %}
       {% if post.type == 'cpb' %}
@@ -23,7 +23,7 @@ title: Jonathan Sick
   </section>
   <section class="index-articles-section">
     <header>
-    <h1 class="index-section-h">Articles</h1>
+    <h1 class="utility-header">Articles</h1>
     </header>
     {% for post in site.posts %}
      {% if post.type == 'article' %}

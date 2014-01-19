@@ -69,9 +69,11 @@ h6, .zeta {
     @include skolar;
     @include adjust-font-size-to(1rem, 1);
 }
-.index-section-h {
-    @include museo-slab-1000;
-    @include adjust-font-size-to(1.3rem, 1);
+.utility-header {
+    @include museo-slab-900;
+    @include adjust-font-size-to(0.8rem, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
     @include trailer(1);
 }
 
