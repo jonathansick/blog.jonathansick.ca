@@ -10,13 +10,13 @@
         @include show-grid($break-columns);
     }
     .post-header {
-        @include span(last $break-columns of $break-columns ltr fluid);
+        @include span(last $break-columns of $break-columns);
     }
     .post-aside {
-        @include span(2 of $break-columns ltr fluid);
+        @include span(2 of $break-columns);
     }
     .post-content {
-        @include span(last 6 of $total-columns ltr fluid);
+        @include span(last 6 of $break-columns ltr fluid);
         @include post(2 of $break-columns);
     }
     .post-page-header, .post-page-footer {
