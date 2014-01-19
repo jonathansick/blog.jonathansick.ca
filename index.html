@@ -27,15 +27,13 @@ title: Jonathan Sick
     </header>
     {% for post in site.posts %}
      {% if post.type == 'article' %}
-        <article>
-          <aside class="index-articles-datecol">
-            <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
-          </aside>
-          <header class="index-articles-titlecol">
-            <h1 class="zeta">
+        <article class="index-article-item">
+          <header>
+            <h1 class="zeta no-trailer">
               <a href="{{ post.url }}">{{ post.title }}</a>
             </h1>
           </header>
+          <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
         </article>
       {% endif %}
     {% endfor %}
