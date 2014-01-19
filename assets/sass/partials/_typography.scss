@@ -41,27 +41,28 @@ h1, .alpha {
 }
 
 h2, .beta {
-    @include museo-slab-1000;
-    @include adjust-font-size-to(1.7rem, 2);
+    @include skolar;
+    @include adjust-font-size-to(2rem, 2);
     @include trailer(1);
+    @include leader(2);
 }
 
 h3, .gamma {
-    @include museo-slab-1000;
-    @include adjust-font-size-to(1.5rem, 2);
+    @include skolar-bold-italic;
+    @include adjust-font-size-to(1.6rem, 2);
     @include trailer(1);
 }
 
 h4, .delta {
-    @include museo-slab-1000;
+    @include skolar-bold;
     @include adjust-font-size-to(1.3rem, 1);
     @include trailer(1);
 }
 
 h5, .epsilon {
     @include rem(font-size, 1.1rem);
-    @include museo-slab-1000;
-    @include adjust-font-size-to(1.1rem, 2);
+    @include skolar;
+    @include adjust-font-size-to(1.1rem, 1);
     @include trailer(1);
 }
 
@@ -145,6 +146,9 @@ pre, code {
 pre {
     @include trailer(1);
 }
+ul, ol {
+    @include trailer(1);
+}
 
 // Homepage article index styling ============================================
 
@@ -162,6 +166,19 @@ pre {
 
 // Article styling ===========================================================
 
+// .post-header {
+//     @include trailer(1);
+// }
+.post-title {
+    @include skolar-bold-italic;
+    @include adjust-font-size-to(3rem, 2);
+}
+.post-subtitle {
+    @include trailer(1);
+    @include skolar-italic;
+    @include adjust-font-size-to(1.2rem, 1);
+    color: $soft-font-color;
+}
 .post-aside p {
     @include adjust-font-size-to(0.8rem, 1);
     @include trailer(0);
@@ -170,16 +187,6 @@ pre {
 .post-aside {
     @include leader(0);
     @include trailer(1);
-}
-.post-header {
-    @include trailer(1);
-}
-.post-subtitle {
-    @include leader(-1);
-    @include trailer(0);
-    @include skolar-bold-italic;
-    @include adjust-font-size-to(1.3rem, 1);
-    color: $soft-font-color;
 }
 
 // Hiding text for screen-readers, maintains outline
