@@ -2,6 +2,7 @@
 
 .page-header-wrapper, .page-footer-wrapper {
     @include container($total-columns);
+    @include container-margin;
 }
 
 @include susy-breakpoint(45em, $break-columns) {

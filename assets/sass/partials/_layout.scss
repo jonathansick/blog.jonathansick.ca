@@ -25,6 +25,10 @@ $susy: (
     ),
 );
 
+@mixin container-margin {
+    padding: 0 0.5rem;
+}
+
 @import "partials/layout-header";
 @import "partials/layout-home";
 @import "partials/layout-article";

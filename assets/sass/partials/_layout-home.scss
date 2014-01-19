@@ -1,14 +1,8 @@
 // Layout for homepage
 
-$homepage-layout: (
-    columns: 6,
-);
-
 .index-wrapper {
-    @include container($homepage-layout);
-    @include susy-breakpoint(45em, $break-columns) {
-        max-width: container($break-columns);
-    }
+    @include container($total-columns);
+    @include container-margin;
 }
 
 @include susy-breakpoint(45em, $break-columns) {
