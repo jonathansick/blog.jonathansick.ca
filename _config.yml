@@ -2,6 +2,7 @@ name: Jonathan Sick
 port: 4001
 pygments: true
 exclude: ["vendor", "assets/vendor", "Gemfile", "Gemfile.lock"]
-markdown: rdiscount
+markdown: redcarpet
 permalink: /:year/:month/:day/:title
-
+redcarpet:
+      extensions: ["smart"]

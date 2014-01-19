@@ -27,6 +27,8 @@ GEM
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     maruku (0.7.1)
+    mini_magick (3.7.0)
+      subexec (~> 0.2.1)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
@@ -41,6 +43,7 @@ GEM
     rdiscount (2.1.7)
     redcarpet (2.3.0)
     safe_yaml (0.9.7)
+    subexec (0.2.3)
     toml (0.1.0)
       parslet (~> 1.5.0)
     yajl-ruby (1.1.0)
@@ -50,4 +53,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 1.4.3)
+  mini_magick
   rdiscount (~> 2.1.7)
+  redcarpet
