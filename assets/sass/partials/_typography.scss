@@ -161,6 +161,10 @@ ol {
     list-style-type: decimal;
 }
 
+img {  // basic responsive images
+    max-width: 100%;
+}
+
 // Homepage article index styling ============================================
 
 .index-article-h {  // titles of articles in homepage

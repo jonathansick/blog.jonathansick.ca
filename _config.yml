@@ -4,5 +4,27 @@ pygments: true
 exclude: ["vendor", "assets/vendor", "Gemfile", "Gemfile.lock"]
 markdown: redcarpet
 permalink: /:year/:month/:day/:title
+
 redcarpet:
-      extensions: ["smart"]
+    extensions: ["smart"]
+
+picture:
+    source: assets/images/_fullsize
+    output: generated
+    markup: picturefill  # change to 'picture' someday...
+    presets:
+        # Full width pictures for articles
+        default:
+            ppi: [1, 1.5, 2]
+            attr:
+                class: article-img-full
+                itemprop: image
+            source_lrg:
+                media: "(min-width: 28em)"
+                width: 612  # 6 columns
+            source_lrg:
+                media: "(min-width: 17em)"
+                width: 500
+            source_default:
+                width: 320
+                height: 200
