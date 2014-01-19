@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 type: article
 title: Writing a thesis on the iPad
+place: Kingston, Canada
 tags:
 - workflow
 ---

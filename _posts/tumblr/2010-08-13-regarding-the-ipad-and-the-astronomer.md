@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 type: article
 title: Regarding the iPad and the Astronomer
+place: Kingston, Canada
 tags:
 - workflow
 ---

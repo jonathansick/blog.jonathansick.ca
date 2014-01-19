@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 type: article
 title: Field Notes Dry Transfer Edition
+place: Kingston, Canada
 tags: 
 ---
 I’m a very particular person. I like to write with a fountain pen in black Noodler’s ink (Polar Bear black for good measure). I like plain paper, and in particular, I like small plain Moleskine notebooks. Sure they’re not exactly what Picasso used, but darn, they’re durable.
