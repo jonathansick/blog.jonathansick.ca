@@ -8,7 +8,7 @@
 @include susy-breakpoint(45em, $break-columns) {
     .page-header-wrapper, .page-footer-wrapper {
         max-width: container($break-columns);
-        @include show-grid($break-columns);
+        // @include show-grid($break-columns);
     }
 
     .page-header, .page-footer {
