@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: article
 type: article
 title:  "Welcome to Jekyll!"
 date:   2013-09-28 14:43:58
+place: Kingston, Canada
 categories: jekyll update
 subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ---
