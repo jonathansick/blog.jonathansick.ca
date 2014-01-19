@@ -145,9 +145,20 @@ pre, code {
 }
 pre {
     @include trailer(1);
+    padding-left: 0.5rem;
+    margin-left: -0.8rem;
+    border-style:solid;
+    border-left-width: 0.3rem;
+    border-left-color: #aaaaaa;
 }
 ul, ol {
     @include trailer(1);
+}
+ul {
+    list-style-type: disc;
+}
+ol {
+    list-style-type: decimal;
 }
 
 // Homepage article index styling ============================================
