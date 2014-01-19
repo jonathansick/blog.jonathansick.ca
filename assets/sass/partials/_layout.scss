@@ -2,7 +2,6 @@
 
 // Base grid settings (mobile-first)
 $total-columns : 6;
-$column-width : 4em;
 
 // Grid settings for tablet/desktop
 $break-columns : 10;
@@ -11,6 +10,7 @@ $susy: (
     // the basics
     columns: $total-columns,
     // gutters: 1em / 4em,  // gutter width / column-width
+    gutters: 0.5, // ratio of gutter width to column width
     column-width: 4em,
 
     // advanced
@@ -25,56 +25,6 @@ $susy: (
     ),
 );
 
-// Container
-
-.page-header-wrapper, .index-wrapper, .post-article, .page-footer-wrapper {
-    @include container($total-columns);
-    // @include susy-grid-background;
-    @include susy-breakpoint(45em, $break-columns) {
-        max-width: container($break-columns);
-    }
-}
-
-@include susy-breakpoint(45em, $break-columns) {
-    // .page-header-wrapper, .index-wrapper, .post-article, .page-footer-wrapper {
-    //     @include susy-grid-background;
-    // }
-    .post-header {
-        @include span(last $break-columns of $break-columns ltr fluid);
-    }
-    .post-aside {
-        @include span(2 of $break-columns ltr fluid);
-    }
-    .post-content {
-        @include span(last 6 of $total-columns ltr fluid);
-        @include post(2 of $break-columns);
-    }
-    .index-ephemera-section {
-        @include span(3 of $break-columns ltr fluid);
-    }
-    .index-articles-section {
-        @include span(last 5 of $break-columns);
-        @include post(2 of $break-columns);
-    }
-    .index-articles-datecol {
-        @include span(2 of 5);
-    }
-    .index-articles-titlecol {
-        @include span(last 3 of 5);
-    }
-    .page-header, .page-footer {
-        @include pre(3 of $break-columns);
-        @include span(last 5 of $break-columns);
-        @include post(2 of $break-columns);
-    }
-    .post-page-header, .post-page-footer {
-        @include pre(2 of $break-columns);
-        @include span(last 6 of $break-columns);
-        @include post(2 of $break-columns);
-    }
-}
-
-// Vertical leading
-.page-header-wrapper {
-    @include trailer(1);
-}
+@import "partials/layout-header";
+@import "partials/layout-home";
+@import "partials/layout-article";

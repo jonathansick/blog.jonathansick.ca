@@ -1,0 +1,32 @@
+// Layout for homepage
+
+$homepage-layout: (
+    columns: 6,
+);
+
+.index-wrapper {
+    @include container($homepage-layout);
+    @include susy-breakpoint(45em, $break-columns) {
+        max-width: container($break-columns);
+    }
+}
+
+@include susy-breakpoint(45em, $break-columns) {
+    .index-wrapper {
+        max-width: container($break-columns);
+        @include show-grid($break-columns);
+    }
+    .index-ephemera-section {
+        @include span(3 of $break-columns ltr fluid);
+    }
+    .index-articles-section {
+        @include span(last 5 of $break-columns);
+        @include post(2 of $break-columns);
+    }
+    .index-articles-datecol {
+        @include span(2 of 5);
+    }
+    .index-articles-titlecol {
+        @include span(last 3 of 5);
+    }
+}

@@ -1,0 +1,23 @@
+// Grid for common header
+
+.page-header-wrapper, .page-footer-wrapper {
+    @include container($total-columns);
+}
+
+@include susy-breakpoint(45em, $break-columns) {
+    .page-header-wrapper, .page-footer-wrapper {
+        max-width: container($break-columns);
+        @include show-grid($break-columns);
+    }
+
+    .page-header, .page-footer {
+        @include pre(3 of $break-columns);
+        @include span(last 5 of $break-columns);
+        @include post(2 of $break-columns);
+    }
+}
+
+// Vertical leading
+.page-header-wrapper {
+    @include trailer(1);
+}

@@ -1,0 +1,27 @@
+// Grid for an article
+
+.post-article, {
+    @include container($total-columns);
+}
+
+@include susy-breakpoint(45em, $break-columns) {
+    .post-article {
+        max-width: container($break-columns);
+        @include show-grid($break-columns);
+    }
+    .post-header {
+        @include span(last $break-columns of $break-columns ltr fluid);
+    }
+    .post-aside {
+        @include span(2 of $break-columns ltr fluid);
+    }
+    .post-content {
+        @include span(last 6 of $total-columns ltr fluid);
+        @include post(2 of $break-columns);
+    }
+    .post-page-header, .post-page-footer {
+        @include pre(2 of $break-columns);
+        @include span(last 6 of $break-columns);
+        @include post(2 of $break-columns);
+    }
+}
