@@ -76,10 +76,6 @@ h6, .zeta {
     letter-spacing: 2px;
     @include trailer(1);
 }
-.index-article-h {  // titles of articles in index
-    @include skolar-bold-italic;
-    @include adjust-font-size-to(1.7rem, 1);
-}
 
 p {
     @include adjust-font-size-to(1rem, 1);
@@ -149,6 +145,22 @@ pre, code {
 pre {
     @include trailer(1);
 }
+
+// Homepage article index styling ============================================
+
+.index-article-h {  // titles of articles in homepage
+    @include skolar-bold-italic;
+    @include adjust-font-size-to(1.7rem, 1);
+}
+.index-cpb-h {  // titles of CPB articles in homepage
+    @include skolar-bold;
+    @include adjust-font-size-to(0.9rem, 1);
+}
+.index-cpb-p {
+    @include adjust-font-size-to(0.8rem, 1)
+}
+
+// Article styling ===========================================================
 
 .post-aside p {
     @include adjust-font-size-to(0.8rem, 1);
