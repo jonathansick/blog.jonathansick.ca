@@ -1,7 +1,10 @@
 ---
-layout: post
+layout: cpbphoto
 type: cpb
 title: Lewis Hamilton
+alt: Lewis Hamilton
+image: "hamilton.png"
+place: "Montréal, Canada"
 tags: 
 ---
 I got to see Lewis Hamilton take victory at the Montreal Grand Prix last weekend.

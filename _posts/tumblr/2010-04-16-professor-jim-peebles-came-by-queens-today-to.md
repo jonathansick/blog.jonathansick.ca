@@ -1,7 +1,10 @@
 ---
-layout: post
+layout: cpbphoto
 type: cpb
 title: "Professor Jim Peebles came by Queen’s today"
+alt: "QUARG and Jim Peebles"
+image: "peebles.png"
+place: "Kingston, Canada"
 tags:
 - queens
 ---
