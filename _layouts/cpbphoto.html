@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>J.Sick: {{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  {% include typekit.html %}
+  <script type="text/javascript" src="/assets/js/matchmediapicturefill.js"></script>
+  <link rel="stylesheet" media="screen, projection" href="/assets/css/screen.css" type="text/css" />
+</head>
+<body>
+  {% include post_header.html %}
+  <article role="article" class="post-cpbphoto">
+    <aside class="post-cpbphoto-aside">
+      <header>
+        <h1 class="zeta no-hyphen">{{ page.title }}</h1>
+      </header>
+      <div class="cpbphoto-caption">
+        {{ content }}
+      </div>
+      <p>by Jonathan Sick</p>
+      <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+      {% if page.place %}
+      <p>{{ page.place }}</p>
+      {% endif %}
+    </aside>
+    <div class="post-cpbphoto-content">
+      {% picture {{ page.image }} alt="{{ page.alt }}" %}
+    </div>
+  </article>
+  {% include post_footer.html %}
+</body>
+</html>

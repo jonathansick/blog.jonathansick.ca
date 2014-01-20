@@ -197,12 +197,12 @@ img {  // basic responsive images
     @include adjust-font-size-to(1.2rem, 1);
     color: $soft-font-color;
 }
-.post-aside p {
+.post-aside p, .post-cpbphoto-aside p {
     @include adjust-font-size-to(0.8rem, 1);
     @include trailer(0);
     color: $soft-font-color;
 }
-.post-aside {
+.post-aside, .post-cpbphoto-aside {
     @include leader(0);
     @include trailer(1);
 }

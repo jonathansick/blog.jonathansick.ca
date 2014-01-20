@@ -1,0 +1,24 @@
+// Grid for a Common Place Book photo
+
+.post-cpbphoto, {
+    @include container($total-columns);
+    @include container-margin;
+}
+
+@include susy-breakpoint(45em, $break-columns) {
+    .post-cpbphoto {
+        max-width: container($break-columns);
+        // @include show-grid($break-columns);
+    }
+    .post-cpbphoto-aside {
+        @include span(2 of $break-columns);
+    }
+    .post-cpbphoto-content {
+        @include span(last 8 of $break-columns ltr fluid);
+        // @include post(2 of $break-columns);
+    }
+}
+
+.cpbphoto-caption {
+    @include trailer(1);
+}
