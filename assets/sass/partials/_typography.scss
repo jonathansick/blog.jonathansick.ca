@@ -138,6 +138,9 @@ cite {
 strong {
     font-weight: bolder;
 }
+em {
+    font-style: italic;
+}
 
 pre, code {
     @include source-code-pro-regular;
